@@ -3046,10 +3046,10 @@ cross-env@^7.0.3:
     cross-spawn "^7.0.1"
 
 cross-fetch@^3.0.4:
-  version "3.0.6"
-  resolved "https://registry.npmjs.org/cross-fetch/-/cross-fetch-3.0.6.tgz"
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-3.1.5.tgz#e1389f44d9e7ba767907f7af8454787952ab534f"
   dependencies:
-    node-fetch "2.6.1"
+    node-fetch "2.6.7"
 
 cross-spawn@^6.0.0, cross-spawn@^6.0.5:
   version "6.0.5"
@@ -6387,9 +6387,15 @@ node-addon-api@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/node-addon-api/-/node-addon-api-3.1.0.tgz"
 
-node-fetch@2.6.1, node-fetch@^2.1.2, node-fetch@^2.2.0, node-fetch@^2.6.0, node-fetch@^2.6.1:
+node-fetch@2.6.1:
   version "2.6.1"
   resolved "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.1.tgz"
+
+node-fetch@2.6.7, node-fetch@^2.1.2, node-fetch@^2.2.0, node-fetch@^2.6.0, node-fetch@^2.6.1:
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
+  dependencies:
+    whatwg-url "^5.0.0"
 
 node-forge@^0.10.0:
   version "0.10.0"
@@ -9591,6 +9597,10 @@ tough-cookie@~2.5.0:
     psl "^1.1.28"
     punycode "^2.1.1"
 
+tr46@~0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
+
 ts-invariant@^0.4.0:
   version "0.4.4"
   resolved "https://registry.npmjs.org/ts-invariant/-/ts-invariant-0.4.4.tgz"
@@ -9930,6 +9940,10 @@ wcwidth@^1.0.1:
   dependencies:
     defaults "^1.0.3"
 
+webidl-conversions@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
+
 webpack-cli@^3.3.12:
   version "3.3.12"
   resolved "https://registry.npmjs.org/webpack-cli/-/webpack-cli-3.3.12.tgz"
@@ -10064,6 +10078,13 @@ websocket-extensions@>=0.1.1:
 whatwg-fetch@^3.5.0:
   version "3.6.2"
   resolved "https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-3.6.2.tgz"
+
+whatwg-url@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
+  dependencies:
+    tr46 "~0.0.3"
+    webidl-conversions "^3.0.0"
 
 which-boxed-primitive@^1.0.1:
   version "1.0.2"
